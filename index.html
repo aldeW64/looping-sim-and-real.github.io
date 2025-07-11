@@ -93,11 +93,11 @@
             <span class="author-block">
              <a href=https://peilinwu.site/>Peilin Wu</a><sup>1</sup>,</span>
             <span class="author-block">
-              Weiji Xie<sup>1</sup>,</span>
+              <a href="https://shi-soul.github.io/">Weiji Xie</a><sup>1</sup>,</span>
             <span class="author-block">
-              Jiahang Cao<sup>1</sup>,</span>
+              <a href="https://scholar.google.com/citations?user=ofpwpDYAAAAJ&hl=zh-CN">Jiahang Cao</a><sup>1</sup>,</span>
             <span class="author-block">
-              Hang Lai<sup>1</sup>,</span>
+              <a href="https://scholar.google.com/citations?user=WYdaCd0AAAAJ&hl=en">Hang Lai</a><sup>1</sup>,</span>
             <span class="author-block">
               <a href="https://wnzhang.net/">Weinan Zhang</a><sup>1</sup>,</span>
           </div>
@@ -129,7 +129,7 @@
               </span>
               <!-- Video Link. -->
               <span class="link-block">
-                <a href="https://youtu.be/3G5gIG7pWpg"
+                <a href="https://youtu.be/xW0dH81eAyc"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fab fa-youtube"></i>
@@ -165,69 +165,25 @@
   </div>
 </section>
 
-<!-- <section class="hero teaser">
+<section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
       <video id="teaser" autoplay muted loop playsinline height="100%">
-        <source src="./static/videos/teaser.mp4"
+        <source src="./static/videos/LoopSR-IROS.mp4"
                 type="video/mp4">
       </video>
       <h2 class="subtitle has-text-centered">
-        <span class="dnerf">Nerfies</span> turns selfie videos from your phone into
-        free-viewpoint
-        portraits.
+        <span class="dnerf">LoopSR</span> successfully adapts the policy of legged robots to real-world environments by looping between simulation and real-world data.
       </h2>
     </div>
   </div>
-</section> -->
+</section>
 
 
 <!-- <section class="hero is-light is-small">
   <div class="hero-body">
     <div class="container">
       <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-steve">
-          <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/steve.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-chair-tp">
-          <video poster="" id="chair-tp" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/chair-tp.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-shiba">
-          <video poster="" id="shiba" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/shiba.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-fullbody">
-          <video poster="" id="fullbody" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/fullbody.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-blueshirt">
-          <video poster="" id="blueshirt" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/blueshirt.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-mask">
-          <video poster="" id="mask" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/mask.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-coffee">
-          <video poster="" id="coffee" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/coffee.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
         <div class="item item-toby">
           <video poster="" id="toby" autoplay controls muted loop playsinline height="100%">
             <source src="./static/videos/toby2.mp4"
@@ -248,7 +204,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Reinforcement Learning (RL) has shown its remarkable and generalizable capability in legged locomotion through sim-to-real transfer. However, while adaptive methods like domain randomization are expected to make policy more robust to diverse environments, such comprehensiveness potentially detracts from the policy’s performance in any specific environment according to the No Free Lunch theorem, leading to a suboptimal solution once deployed in the real world. To address this issue, we propose a lifelong policy adaptation framework named LoopSR, which utilizes a transformerbased encoder to project real-world trajectories into a latent space, and accordingly reconstruct the real-world environments back in simulation for further improvement. Autoencoder architecture and contrastive learning methods are adopted to better extract the characteristics of real-world dynamics. The simulation parameters for continual training are derived by combining predicted parameters from the decoder with retrieved parameters from the simulation trajectory dataset. By leveraging the continual training, LoopSR achieves superior data efficiency compared with strong baselines, with only a limited amount of data to yield eminent performance in both sim-to-sim and sim-to-real experiments.
+            Reinforcement Learning (RL) has shown its remarkable and generalizable capability in legged locomotion through sim-to-real transfer. However, while adaptive methods like domain randomization are expected to make policy more robust to diverse environments, such comprehensiveness potentially detracts from the policy's performance in any specific environment according to the No Free Lunch theorem, leading to a suboptimal solution once deployed in the real world. To address this issue, we propose a lifelong policy adaptation framework named LoopSR, which utilizes a transformerbased encoder to project real-world trajectories into a latent space, and accordingly reconstruct the real-world environments back in simulation for further improvement. Autoencoder architecture and contrastive learning methods are adopted to better extract the characteristics of real-world dynamics. The simulation parameters for continual training are derived by combining predicted parameters from the decoder with retrieved parameters from the simulation trajectory dataset. By leveraging the continual training, LoopSR achieves superior data efficiency compared with strong baselines, with only a limited amount of data to yield eminent performance in both sim-to-sim and sim-to-real experiments.
           </p>
         </div>
       </div>
